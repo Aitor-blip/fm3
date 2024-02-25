@@ -6,24 +6,33 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Recipe page</title>
+  <title>Recipe page done by AP</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-  <div class="card">
+  <div class="body-1"></div>
+  <div class="body-2"></div>
+  <div class="card1">
+    <div class="card">
     <div class="card__container">
-      <img src="assets/images/image-omelette.jpeg" alt="Food Image" class="card__img">
-      <h1 class="card__heading"> Simple Omelette Recipe</h1>
-      <p class="card__paragraph">
-        An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
-        to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+      <div class="card__img">
+        <img src="assets/images/image-omelette.jpeg" alt="Food Image">
+      </div>
+      <div class="card__texts">
+        <h1 class="card__heading"> Simple Omelette Recipe</h1>
+        <p class="card__paragraph">
+          An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+          to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+      </div>
+      
       
       <div class="card__preparation">
-        <h2 class="card__title">Preparation time</h2>
+        <h2 class="card__title card__title--special">Preparation time</h2>
         <ul class="card__info">
-          <li class="card__info__item">Total: Approximately 10 minutes</li>
-          <li class="card__info__item">Preparation: 5 minutes</li>
-          <li class="card__info__item">Cooking: 5 minutes</li>
+          <li class="card__info__item"><span class="card__span">Total:</span> Approximately 10 minutes</li>
+          <li class="card__info__item"><span class="card__span">Preparation:</span> 5 minutes</li>
+          <li class="card__info__item"><span class="card__span">Cooking:</span> 5 minutes</li>
         </ul>
       </div>
       
@@ -42,62 +51,159 @@
         <h2 class="card__title">Instructions</h2>
         <ol class="card__instructions__info">
           <li class="card__instructions__info__item">
-            <span class="card__instructions__info__item__title">Beat the eggs:</span>
+            <p><span class="card__span">Beat the eggs:</span>
             In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
-            You can add a tablespoon of water or milk for a fluffier texture.
+            You can add a tablespoon of water or milk for a fluffier texture.</p>
           </li>
           <li class="card__instructions__info__item">
-            <span class="card__instructions__info__item__title">Heat the pan:</span>
-            Place a non-stick frying pan over medium heat and add butter or oil.
+            <p><span class="card__span">Heat the pan:</span>
+            Place a non-stick frying pan over medium heat and add butter or oil.</p>
           </li>
           <li class="card__instructions__info__item">
-            <span class="card__instructions__info__item__title">Cook the omelette:</span>
+           <p><span class="card__span">Cook the omelette:</span>
             Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
-            the eggs evenly coat the surface.
+            the eggs evenly coat the surface.</p> 
           </li>
           <li class="card__instructions__info__item">
-            <span class="card__instructions__info__item__title">Add fillings (optional):</span>
+            <p><span class="card__span">Add fillings (optional):</span>
             When the eggs begin to set at the edges but are still slightly runny in the 
-            middle, sprinkle your chosen fillings over one half of the omelette.
+            middle, sprinkle your chosen fillings over one half of the omelette.</p>
           </li>
           <li class="card__instructions__info__item">
-            <span class="card__instructions__info__item__title">Fold and serve:</span>
+            <p><span class="card__span">Fold and serve:</span>
             As the omelette continues to cook, carefully lift one edge and fold it over the 
-            fillings. Let it cook for another minute, then slide it onto a plate.
+            fillings. Let it cook for another minute, then slide it onto a plate.</p>
           </li>
           <li class="card__instructions__info__item">
-            <span class="card__instructions__info__item__title">Enjoy:</span>
-            Serve hot, with additional salt and pepper if needed.
+            <p><span class="card__span">Enjoy:</span>
+            Serve hot, with additional salt and pepper if needed.</p>
           </li>
         </ol>
       </div>
 
       <div class="card__nutrition">
         <h2 class="card__title">Nutrition</h2>
-        <p class="card__subtitle">  The table below shows nutritional values per serving without the additional fillings.</p>
+        <p class="card__paragraph">  The table below shows nutritional values per serving without the additional fillings.</p>
         <table class="card__info">
          <tbody>
-          <tr>
-            <td scope="row">Calories</td>
-            <th>277kcal</th>
+          <tr class="fila">
+            <td scope="row" class="card__paragraph">Calories</td>
+            <th class="card__table__value">277kcal</th>
           </tr>
-          <tr>
-            <td scope="row">Carbs</td>
-            <th>0g</th>
+          <tr class="fila">
+            <td scope="row" class="card__paragraph">Carbs</td>
+            <th class="card__table__value">0g</th>
           </tr>
-          <tr>
-            <td scope="row">Protein</td>
-            <th>20g</th>
+          <tr class="fila">
+            <td scope="row" class="card__paragraph">Protein</td>
+            <th class="card__table__value">20g</th>
           </tr>
-          <tr>
-            <td scope="row">Fat</td>
-            <th>22g</th>
+          <tr class="fila">
+            <td scope="row" class="card__paragraph">Fat</td>
+            <th class="card__table__value">22g</th>
           </tr>
          </tbody>
         </table>
       </div>
 
     </div>
+  </div>
+  </div>
+  <div class="card2">
+    <div class="card">
+    <div class="card__container">
+      <div class="card__img">
+        <img src="assets/images/image-omelette.jpeg" alt="Food Image">
+      </div>
+      <div class="card__texts">
+        <h1 class="card__heading"> Simple Omelette Recipe</h1>
+        <p class="card__paragraph">
+          An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+          to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+      </div>
+      
+      
+      <div class="card__preparation">
+        <h2 class="card__title card__title--special">Preparation time</h2>
+        <ul class="card__info">
+          <li class="card__info__item"><span class="card__span">Total:</span> Approximately 10 minutes</li>
+          <li class="card__info__item"><span class="card__span">Preparation:</span> 5 minutes</li>
+          <li class="card__info__item"><span class="card__span">Cooking:</span> 5 minutes</li>
+        </ul>
+      </div>
+      
+      <div class="card__ingredients">
+        <h2 class="card__title">Ingredients</h2>
+        <ul class="card__ingredients__info">
+          <li class="card__ingredients__info__item">2-3 large eggs</li>
+          <li class="card__ingredients__info__item">Salt, to taste</li>
+          <li class="card__ingredients__info__item">Pepper, to taste</li>
+          <li class="card__ingredients__info__item">1 tablespoon of butter or oil</li>
+          <li class="card__ingredients__info__item">Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+        </ul>
+      </div>
+
+      <div class="card__instructions">
+        <h2 class="card__title">Instructions</h2>
+        <ol class="card__instructions__info">
+          <li class="card__instructions__info__item">
+            <p><span class="card__span">Beat the eggs:</span>
+            In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+            You can add a tablespoon of water or milk for a fluffier texture.</p>
+          </li>
+          <li class="card__instructions__info__item">
+            <p><span class="card__span">Heat the pan:</span>
+            Place a non-stick frying pan over medium heat and add butter or oil.</p>
+          </li>
+          <li class="card__instructions__info__item">
+           <p><span class="card__span">Cook the omelette:</span>
+            Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+            the eggs evenly coat the surface.</p> 
+          </li>
+          <li class="card__instructions__info__item">
+            <p><span class="card__span">Add fillings (optional):</span>
+            When the eggs begin to set at the edges but are still slightly runny in the 
+            middle, sprinkle your chosen fillings over one half of the omelette.</p>
+          </li>
+          <li class="card__instructions__info__item">
+            <p><span class="card__span">Fold and serve:</span>
+            As the omelette continues to cook, carefully lift one edge and fold it over the 
+            fillings. Let it cook for another minute, then slide it onto a plate.</p>
+          </li>
+          <li class="card__instructions__info__item">
+            <p><span class="card__span">Enjoy:</span>
+            Serve hot, with additional salt and pepper if needed.</p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="card__nutrition">
+        <h2 class="card__title">Nutrition</h2>
+        <p class="card__paragraph">  The table below shows nutritional values per serving without the additional fillings.</p>
+        <table class="card__info">
+         <tbody>
+          <tr class="fila">
+            <td scope="row" class="card__paragraph">Calories</td>
+            <th class="card__table__value">277kcal</th>
+          </tr>
+          <tr class="fila">
+            <td scope="row" class="card__paragraph">Carbs</td>
+            <th class="card__table__value">0g</th>
+          </tr>
+          <tr class="fila">
+            <td scope="row" class="card__paragraph">Protein</td>
+            <th class="card__table__value">20g</th>
+          </tr>
+          <tr class="fila">
+            <td scope="row" class="card__paragraph">Fat</td>
+            <th class="card__table__value">22g</th>
+          </tr>
+         </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
   </div>
 </body>
 </html>
